@@ -1,0 +1,3 @@
+Here is the input datasets. 
+small-graph.txt is a real world graph which will be shown as a picture in the report, it is used for case study.
+message.txt and email.txt is from SNAP, which could be used to get the computation time and message numbers.
