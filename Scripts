@@ -1,0 +1,2 @@
+The script to run the program is:./hadoop jar ../share/hadoop/common/giraph-core.jar org.apache.giraph.GiraphRunner Baseline.DCore -mc Baseline.DCoreMasterCompute -vif Baseline.DCoreInputFormat -vof Baseline.DCoreOutputFormat -vip /hbase/usr/Dcore/input/message.txt -op /hbase/usr/Dcore/output -w 1 -ca giraph.SplitMasterWorker=false 
+ Here -vip and -op is HDFS folder where input and output is, you may change them according to your HDFS path. 
